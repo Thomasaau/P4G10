@@ -1,7 +1,0 @@
-#N canvas 221 388 450 300 10;
-#X text 40 42 LED output;
-#X text 166 16 hit, f 7;
-#X text 266 15 !hit;
-#X obj 249 164 sig~ 0;
-#X obj 184 231 dac~ 10;
-#X connect 3 0 4 0;
