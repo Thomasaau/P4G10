@@ -1,4 +1,7 @@
-#N canvas 64 174 743 566 10;
+#N canvas 689 200 743 566 10;
 #X obj 123 94 adc~ 3;
 #X obj 52 135 s~ x-axis;
+#X obj 212 145 s~ x-axis2;
+#X obj 283 104 adc~ 10;
 #X connect 0 0 1 0;
+#X connect 3 0 2 0;
