@@ -4,3 +4,4 @@
 #X obj 212 145 s~ x-axis2;
 #X obj 283 104 adc~ 5;
 #X connect 0 0 1 0;
+#X connect 3 0 2 0;

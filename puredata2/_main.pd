@@ -1,8 +1,8 @@
-#N canvas 815 293 474 347 10;
+#N canvas 528 249 474 347 10;
 #X text 59 42 input;
 #X obj 52 82 accelerometer;
 #X text 59 121 output;
-#X obj 55 181 audio;
 #X obj 255 108 scope;
-#X obj 196 183 writeFile;
 #X obj 55 149 differnce;
+#X obj 55 181 audio2;
+#X obj 176 165 writeFile;

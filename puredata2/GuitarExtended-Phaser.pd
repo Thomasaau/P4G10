@@ -1,7 +1,7 @@
 #N canvas 54 220 892 444 10;
 #X obj 79 322 dac~;
 #X obj 500 15 hsl 128 15 0 10 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 5100 1;
+-1 -1 0 1;
 #X obj 338 122 *~ 2;
 #X obj 338 142 +~ 2;
 #X obj 377 164 *~ 2;
@@ -19,8 +19,8 @@
 #X obj 338 297 *~ 0.8;
 #X obj 447 324 s~ output;
 #X obj 111 282 r~ output;
-#X obj 532 231 hsl 128 15 -0.9 0.9 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 4400 1;
+#X obj 516 229 hsl 128 15 -0.9 0.9 0 0 empty empty empty -2 -8 0 10
+-262144 -1 -1 0 1;
 #X text 252 30 <-- Write to delay lines;
 #X text 448 210 <-- Read from delay line 2;
 #X text 442 274 <-- Read from delay line 1;
